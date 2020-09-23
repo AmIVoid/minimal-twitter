@@ -48,7 +48,7 @@ Manual installation:
 
 Manual installation for Dev Edition, Nightly, or ESR:
 1. Go to "about:config"
-2. `Set xpinstall.signatures.required` to **false**
+2. Set `xpinstall.signatures.required` to **false**
 3. Go to "about:addons"
 4. Download firefox.zip from [Releases](https://github.com/AmIVoid/minimal-twitter/releases)
 5. Drag firefox.zip into about:addons
