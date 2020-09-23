@@ -18,8 +18,6 @@ This theme aims to drastically simplify and declutter the new Twitter UI. By def
 - Search on top right
 - Tweet button on bottom right.
 
-![screenshot](./screenshot.png)
-
 ## Installation
 
 - [Chrome Extension](#chrome)
