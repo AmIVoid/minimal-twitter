@@ -35,7 +35,7 @@ function save_options() {
 function restore_options() {
   chrome.storage.sync.get(
     {
-      feedWidth: "600",
+      feedWidth: "100%",
       topNavigation: false,
       noTweetButton: false,
       showMessageDrawer: false,

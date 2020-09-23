@@ -39,6 +39,17 @@ chrome.storage.sync.get(
         max-width: 800px !important;
       }
       `);
+    } else if (items.feedWidth === "100%") {
+      addStyles(`
+      div[data-testid="primaryColumn"],
+      div[data-testid="primaryColumn"] > div > div,
+      div[data-testid="primaryColumn"] > div > div > div:nth-child(2),
+      div[data-testid="primaryColumn"] > div > div > div:nth-child(3),
+      div[data-testid="primaryColumn"] > div > div > div:nth-child(4),
+      div[data-testid="primaryColumn"] > div > div > div:nth-child(2) > div > div {
+        max-width: 100% !important;
+      }
+      `);
     }
 
     if (items.topNavigation === true) {
